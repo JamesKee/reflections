@@ -1,0 +1,15 @@
+diff or FC is a simple way to point out differences in two files!
+this is great for debugging!
+
+Easily accessing the history of a file makes it easier to quickly review changes
+that have been made.  This is also really handy for debugging.
+
+Autosave is obviously a great feature for things like office suites, but for code editors
+it is better to have more control over when a project gets saved.  This ensures that a version of
+the project isn't saved halfway through, which could potentially be buggy or broken.
+
+git log - shows the commits
+git diff - shows the differences between two commits
+git checkout - returns to a previous commit
+
+checkout is obviously great for making sure you don't break anything while changing code

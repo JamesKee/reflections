@@ -1,0 +1,2 @@
+git init - initializes the repository, which sets up git in the directory,
+but doesn't add any commits or chose which files will be tracked.
