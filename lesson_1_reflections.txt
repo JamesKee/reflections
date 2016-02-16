@@ -12,4 +12,4 @@ git log - shows the commits
 git diff - shows the differences between two commits
 git checkout - returns to a previous commit
 
-checkout is obviously great for making sure you don't break anything while changing code
+checkout is obviously great for making sure you don't break anything while changing code.
