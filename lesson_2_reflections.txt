@@ -9,3 +9,8 @@ the three parts of git are:
 the stage is an intermediate area to give a buffer between the working directory and
 the repository.  Files can be individually added to the stage and them committed to 
 keep commits from getting to large.   
+
+git branch - lists the branches, switch branches using git checkout
+git branch <name> -creates a new branch
+
+branches are useful for implementing new features without changing the master.
