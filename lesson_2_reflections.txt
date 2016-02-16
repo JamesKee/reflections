@@ -14,3 +14,12 @@ git branch - lists the branches, switch branches using git checkout
 git branch <name> -creates a new branch
 
 branches are useful for implementing new features without changing the master.
+
+git checkout -b <new branch name> makes a new branch that is available for commits,
+this is great if you are trying to commit from an earlier point in a branch (a detached head state)
+and would otherwise be creating a commit that would be unreachable.
+
+git merge <branch_name> - merges a branch with the currently checked out branch all commits
+become attached to the merged branch and are ordered by date.
+
+git show <commit ID> - compares (via diff) the target commit to it's parent.
